@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reloj Simple</title>
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="js/script.js" as="script">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- fuente : ubuntu regular 400 y bold 700-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Reloj simple con HTML, CSS y JS -->
+
+    <header>
+        <h1><span class="underlinePersonalizado">Reloj simple</span></h1>
+    </header>
+
+    <div class="contenedor-principal">
+
+        <main class="reloj">
+
+            <span id="hora" class="hora"></span>:
+            <span id="minutos" class="minutos"></span>:
+            <span id="segundos" class="segundos"></span>
+
+            <!-- <span id="hora" class="hora"></span> -->
+
+        </main>
+
+    </div>
+
+    <footer class="contenedor-footer">
+        <small class="footer__texto">Todos los derechos reservados 2021</small>
+        <small class="footer__autor">By Neel</small>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
